@@ -33,7 +33,7 @@ const Navbar = () => {
 
         {/* Desktop */}
         <div
-          className={`absolute md:static top-full left-0 w-full bg-darkest md:bg-transparent md:flex md:items-center md:justify-between md:w-full transition-all duration-300 ease-in-out ${
+          className={`absolute md:static top-full left-0 w-full bg-bg-darkest md:bg-transparent md:flex md:items-center md:justify-between md:w-full transition-all duration-300 ease-in-out ${
             isOpen
               ? "opacity-100 translate-y-0 visible"
               : "opacity-0 -translate-y-3 invisible md:visible md:opacity-100 md:translate-y-0"
