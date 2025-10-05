@@ -52,10 +52,10 @@ const Navbar = () => {
                 >
                   <a
                     href={`#${link.toLowerCase()}`}
-                    className="relative group font-medium hover:text-accent-mid transition"
+                    className="relative group font-medium hover:text-accent-darkest transition"
                   >
                     {link}
-                    <span className="block h-[2px] w-0 bg-accent-mid group-hover:w-full transition-all duration-300"></span>
+                    <span className="block h-[2px] w-0 bg-accent-darkest group-hover:w-full transition-all duration-300"></span>
                   </a>
                 </li>
               )
@@ -63,10 +63,10 @@ const Navbar = () => {
           </ul>
 
           <div className="flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0 px-4 md:px-0 mb-6 md:mb-0">
-            <button className="text-sm hover:text-accent-mid transition">
+            <button className="text-sm hover:text-accent-darkest transition">
               Log In
             </button>
-            <button className="bg-accent-mid text-sm px-5 py-2 rounded-md hover:bg-accent-dark transition">
+            <button className="bg-accent-darkest text-sm px-5 py-2 rounded-md hover:bg-accent-dark transition">
               Sign Up
             </button>
           </div>
