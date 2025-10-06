@@ -4,6 +4,7 @@ import Clients from './Clients.jsx'
 import About from './About.jsx'
 import Features from './Features.jsx'
 import Features2 from './Features2.jsx'
+import Benefit from './Benefit.jsx'
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <About />
       <Features />
       <Features2 />
+      <Benefit />
     </div>
   )
 }
