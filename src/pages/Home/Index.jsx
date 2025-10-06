@@ -5,6 +5,7 @@ import About from './About.jsx'
 import Features from './Features.jsx'
 import Features2 from './Features2.jsx'
 import Benefit from './Benefit.jsx'
+import Message from './Message.jsx'
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Features />
       <Features2 />
       <Benefit />
+      <Message />
     </div>
   )
 }
