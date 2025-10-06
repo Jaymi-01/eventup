@@ -6,6 +6,7 @@ import Features from './Features.jsx'
 import Features2 from './Features2.jsx'
 import Benefit from './Benefit.jsx'
 import Message from './Message.jsx'
+import Setup from './Setup.jsx'
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <Features2 />
       <Benefit />
       <Message />
+      <Setup />
     </div>
   )
 }
