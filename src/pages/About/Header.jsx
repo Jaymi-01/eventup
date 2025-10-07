@@ -3,7 +3,7 @@ import Conference from "../../images/conference.png";
 
 const Header = () => {
   return (
-    <section className="bg-bg-darkest text-white pt-25 overflow-hidden">
+    <section className="bg-bg-darkest text-white pt-15 overflow-hidden">
       <div className="px-4 md:px-10">
         <div className="flex flex-col md:flex-row gap-4 md:gap-20 justify-between mb-8 pr-4">
           <h1 className="text-4xl md:text-5xl font-semibold">
