@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
+import { Link } from "react-router-dom"; // <-- import Link
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,23 +41,24 @@ const Navbar = () => {
           }`}
         >
           <ul className="flex flex-col md:flex-row md:justify-center md:flex-1 md:items-center text-center space-y-4 md:space-y-0 md:space-x-8 py-4 md:py-0">
-            {["Home", "About", "Pricing", "Career", "Blog"].map(
-              (link, index) => (
+            {["/", "/about", "/pricing", "/career", "/blog"].map(
+              (path, index) => (
                 <li
-                  key={link}
+                  key={path}
                   className={`transition-all duration-300 ${
                     isOpen
                       ? `delay-[${index * 75}ms] opacity-100 translate-y-0`
                       : "opacity-0 translate-y-[-10px] md:opacity-100 md:translate-y-0"
                   }`}
                 >
-                  <a
-                    href={`#${link.toLowerCase()}`}
+                  <Link
+                    to={path}
                     className="relative group font-medium hover:text-accent-darkest transition"
+                    onClick={() => setIsOpen(false)} // close menu on mobile
                   >
-                    {link}
+                    {path === "/" ? "Home" : path.replace("/", "").charAt(0).toUpperCase() + path.slice(2)}
                     <span className="block h-[2px] w-0 bg-accent-darkest group-hover:w-full transition-all duration-300"></span>
-                  </a>
+                  </Link>
                 </li>
               )
             )}
