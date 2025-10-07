@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home/Index.jsx";
 import About from './pages/About/Index.jsx';
+import Pricing from './pages/Pricing/Index.jsx';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes>
         <Footer />
       </div>
