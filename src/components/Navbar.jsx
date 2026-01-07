@@ -65,12 +65,16 @@ const Navbar = () => {
           </ul>
 
           <div className="flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0 px-4 md:px-0 mb-6 md:mb-0">
-            <button className="text-sm hover:text-accent-darkest transition">
-              Log In
-            </button>
-            <button className="bg-accent-darkest text-sm px-5 py-2 rounded-md hover:bg-accent-dark transition">
-              Sign Up
-            </button>
+            <Link to="/login">
+              <button className="text-sm hover:text-accent-darkest transition">
+                Log In
+              </button>
+            </Link>
+            <Link to="/signup">
+              <button className="bg-accent-darkest text-sm px-5 py-2 rounded-md hover:bg-accent-dark transition text-white">
+                Sign Up
+              </button>
+            </Link>
           </div>
         </div>
       </div>
