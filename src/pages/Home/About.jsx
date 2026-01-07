@@ -4,7 +4,7 @@ import Assets from "../../images/Assets.png";
 const About = () => {
   return (
     <section className="bg-about w-full">
-      <div className="grid md:flex md:items-center gap-8 px-6 md:px-24 py-10 w-full">
+      <div className="grid md:flex md:items-center gap-8 max-w-7xl mx-auto px-4 py-4 w-full">
         <div>
           <img src={Assets} alt="" className="w-82 md:w-131" />
         </div>
