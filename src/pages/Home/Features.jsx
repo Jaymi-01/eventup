@@ -4,7 +4,7 @@ import Feature from "../../images/feature.png";
 const Features = () => {
   return (
     <section className="bg-white w-full">
-      <div className="px-6 md:px-24 py-10 w-full">
+      <div className="max-w-7xl mx-auto px-4 py-4 w-full">
         <div className="text-center">
           <h1 className="text-3xl md:text-5xl font-semibold">
             Powerful virtual conferencing platform solution
