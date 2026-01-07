@@ -39,7 +39,7 @@ const Details = () => {
               <h2 className="text-xl font-bold mb-2">Enterprise Plan</h2>
               <p className="text-gray-600 mb-4">Best for large organizations.</p>
               <p className="text-2xl font-bold mb-4">$100/month</p>
-              <button className="bg-white hover:bg-accent-darkest border-1 border-accent-darkest text-accent-darkest  hover:text-whitepy-2 px-4 rounded w-full">
+              <button className="bg-white hover:bg-accent-darkest border-1 border-accent-darkest text-accent-darkest  hover:text-white py-2 px-4 rounded w-full">
                 Choose Plan
               </button>
             </div>
