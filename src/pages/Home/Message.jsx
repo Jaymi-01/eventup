@@ -6,7 +6,7 @@ import { FaQuoteRight } from "react-icons/fa";
 const Message = () => {
   return (
     <section className="bg-white">
-      <div className="grid md:grid-cols-2 md:items-center gap-6 px-6 md:px-24 py-10 w-full">
+      <div className="grid md:grid-cols-2 md:items-center gap-6 max-w-7xl mx-auto px-4 py-4 w-full">
         <div className="flex">
           <img src={Founder} alt="" className="w-14 md:w-20" />
           <div className="ml-4">
