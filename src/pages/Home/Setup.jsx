@@ -2,8 +2,8 @@ import React from "react";
 
 const Setup = () => {
   return (
-    <section className="bg-white w-full px-6 py-6 md:px-24 md:py-24">
-      <div className="bg-[#953314] grid md:grid-cols-2 gap-8 md:gap-24 px-6 py-14 md:px-16 md:py-24 rounded-lg text-white">
+    <section className="bg-white ">
+      <div className="bg-[#953314] grid md:grid-cols-2 gap-8 md:gap-24  md:px-16 md:py-24 max-w-7xl mx-auto px-4 py-4 rounded-lg text-white">
   {/* Left Column */}
   <div className="flex flex-col justify-center">
     <h1 className="text-4xl md:text-5xl font-semibold">
