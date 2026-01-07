@@ -11,7 +11,7 @@ import Shipbob from "../../images/shipbob.png";
 const Clients = () => {
   return (
     <section className="bg-bg-darker w-full">
-      <div className="grid grid-cols-2 md:flex md:justify-between gap-8 px-6 py-10 w-full">
+      <div className="grid grid-cols-2 md:flex md:justify-between gap-8 max-w-7xl mx-auto px-4 py-4 w-full">
         <img src={Slack} alt="Slack" className="w-36 h-9" />
         <img src={Netflix} alt="Netflix" className="w-36 h-9" />
         <img src={Airbnb} alt="Airbnb" className="w-36 h-9" />
