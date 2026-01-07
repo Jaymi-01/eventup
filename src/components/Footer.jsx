@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <section className='bg-white w-full'>
-  <div className='grid md:grid-cols-2 md:items-center gap-6 px-6 md:px-24 py-14 w-full'>
+  <div className='grid md:grid-cols-2 md:items-center gap-6 max-w-7xl mx-auto px-4 py-4 w-full'>
     
     {/* Left links */}
     <div className='flex gap-6 md:gap-10'>
