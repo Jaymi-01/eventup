@@ -6,7 +6,7 @@ import { CiCircleCheck } from "react-icons/ci";
 const Features2 = () => {
   return (
     <section className="bg-bg-darkest text-white w-full">
-      <div className="grid md:flex md:flex-row-reverse md:items-center gap-8 px-6 md:px-24 py-10 w-full">
+      <div className="grid md:flex md:flex-row-reverse md:items-center gap-8 max-w-7xl mx-auto px-4 py-4 w-full">
         <div>
           <img src={Feature2} alt="" className="md:w-159" />
         </div>
